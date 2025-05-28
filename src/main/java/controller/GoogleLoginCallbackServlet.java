@@ -36,8 +36,8 @@ public class GoogleLoginCallbackServlet extends HttpServlet {
 	@Resource(name = "jdbc/moviedb")
 	private DataSource dataSource;
 
-	private static final String CLIENT_ID = "368231479146-rlo66v5nu0f6cat9pafsgmdjnn3nvjmg.apps.googleusercontent.com";
-	private static final String CLIENT_SECRET = "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";
+	private static final String CLIENT_ID = "";
+	private static final String CLIENT_SECRET = "";
 	private static final String REDIRECT_URI = "http://localhost:8080/rottenapple/GoogleLoginCallbackServlet";
 
 	@Override

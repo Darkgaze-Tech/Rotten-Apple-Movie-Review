@@ -13,8 +13,8 @@ import java.util.Collections;
 
 @WebServlet("/GoogleLoginServlet")
 public class GoogleLoginServlet extends HttpServlet {
-    private static final String CLIENT_ID = "368231479146-rlo66v5nu0f6cat9pafsgmdjnn3nvjmg.apps.googleusercontent.com";
-    private static final String CLIENT_SECRET = "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";
+    private static final String CLIENT_ID = "";
+    private static final String CLIENT_SECRET = "";
     private static final String REDIRECT_URI = "http://localhost:8080/rottenapple/GoogleLoginCallbackServlet";
     private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
 
