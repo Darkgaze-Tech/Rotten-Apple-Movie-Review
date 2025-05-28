@@ -1,2 +1,3 @@
 # Rotten-Apple-Movie-Review
-![image](https://github.com/user-attachments/assets/b672350d-fabb-4d04-9298-3fefaf775dc0)
+![image](https://github.com/user-attachments/assets/77e14e63-dd04-4fc3-aea3-63566b6d9b87)
+
