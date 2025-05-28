@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+	id="WebApp_ID" version="6.0">
+	<context-param>
+		<param-name>host</param-name>
+		<param-value>smtp.gmail.com</param-value>
+	</context-param>
+	<context-param>
+		<param-name>port</param-name>
+		<param-value>587</param-value>
+	</context-param>
+	<context-param>
+		<param-name>email</param-name>
+		<param-value>knive.23@gmail.com</param-value>
+	</context-param>
+	<context-param>
+		<param-name>name</param-name>
+		<param-value>RottenApple</param-value>
+	</context-param>
+	<context-param>
+		<param-name>pass</param-name>
+		<param-value>bxov lxrt pijs kzgx</param-value>
+	</context-param>
+	<servlet>
+		<description></description>
+		<display-name>ResetPasswordServlet</display-name>
+		<servlet-name>ResetPasswordServlet</servlet-name>
+		<servlet-class>controller.ResetPasswordServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ResetPasswordServlet</servlet-name>
+		<url-pattern>/ResetPasswordServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>MovieDetailServlet</display-name>
+		<servlet-name>MovieDetailServlet</servlet-name>
+		<servlet-class>controller.MovieDetailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MovieDetailServlet</servlet-name>
+		<url-pattern>/MovieDetailServlet</url-pattern>
+	</servlet-mapping>
+
+</web-app>
