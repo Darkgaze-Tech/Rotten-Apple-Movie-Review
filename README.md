@@ -1,4 +1,4 @@
-# Rotten-Apple-Movie-Review
+# Rotten Apple Movie Review
 
 ### Register
 
