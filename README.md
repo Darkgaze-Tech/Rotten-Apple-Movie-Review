@@ -1,6 +1,6 @@
 # Rotten-Apple-Movie-Review
 
-<p><strong>Register</strong></p>
+## Register
 
 ![image](https://github.com/user-attachments/assets/fc53a825-07d3-47fe-90df-bed6bf54472c)
 
